@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="U3g-lO-HBA">
+    <device id="ipad9_7" orientation="landscape">
+        <adaptation id="splitview1_3"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="808-sG-KZf">
+            <objects>
+                <viewController id="U3g-lO-HBA" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Kcx-fm-3dD">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" ambiguous="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rWa-l5-ift">
+                                <rect key="frame" x="8" y="28" width="304" height="484"/>
+                                <string key="text">Minneapolis, is the county seat of Hennepin County, and the larger of the Twin Cities, the 16th-largest metropolitan area in the United States. As of 2016, Minneapolis is the largest city in the state of Minnesota and 46th-largest in the United States, with an estimated population of 413,651. The Twin Cities metropolitan area consists of Minneapolis, its neighbor Saint Paul, and suburbs which together contain about 3.5 million people.  </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                </variation>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="Skyline" translatesAutoresizingMaskIntoConstraints="NO" id="aSI-sJ-JdQ">
+                                <rect key="frame" x="0.0" y="512" width="320" height="512"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="HN3-gI-Bd4"/>
+                                    <constraint firstAttribute="width" constant="300" id="scX-mp-URd"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="HN3-gI-Bd4"/>
+                                        <exclude reference="scX-mp-URd"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <mask key="constraints">
+                                        <include reference="HN3-gI-Bd4"/>
+                                        <include reference="scX-mp-URd"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iTunesArtwork" translatesAutoresizingMaskIntoConstraints="NO" id="ip6-oO-Hgc">
+                                <rect key="frame" x="0.0" y="20" width="275" height="275"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="275" id="6i9-Ez-SM8"/>
+                                    <constraint firstAttribute="height" constant="275" id="tdO-1e-zt5"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="300px-Calhoun_mpls" translatesAutoresizingMaskIntoConstraints="NO" id="Pp8-7d-Q5n">
+                                <rect key="frame" x="824" y="20" width="275" height="275"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="275" id="Vm2-QZ-eZI"/>
+                                    <constraint firstAttribute="height" constant="275" id="bKU-DB-O7E"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Skyline" translatesAutoresizingMaskIntoConstraints="NO" id="mC4-9c-tSb">
+                                <rect key="frame" x="0.0" y="468" width="275" height="275"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="275" id="5Gi-vc-JIH"/>
+                                    <constraint firstAttribute="height" constant="275" id="m2T-tM-ozd"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iTunesArtwork-1" translatesAutoresizingMaskIntoConstraints="NO" id="btZ-Zb-KMg">
+                                <rect key="frame" x="749" y="493" width="275" height="275"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="275" id="3ad-Bk-Wqd"/>
+                                    <constraint firstAttribute="width" constant="275" id="faa-EF-mBh"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="btZ-Zb-KMg" firstAttribute="bottom" secondItem="ejI-A6-KXo" secondAttribute="bottom" id="AKt-hj-FUr"/>
+                            <constraint firstAttribute="bottom" secondItem="rWa-l5-ift" secondAttribute="bottom" id="EVu-8b-2qJ"/>
+                            <constraint firstItem="mC4-9c-tSb" firstAttribute="leading" secondItem="ejI-A6-KXo" secondAttribute="leading" id="FOH-FK-n4G"/>
+                            <constraint firstItem="rWa-l5-ift" firstAttribute="leading" secondItem="ejI-A6-KXo" secondAttribute="leading" constant="8" id="FnL-dq-oKE"/>
+                            <constraint firstItem="rWa-l5-ift" firstAttribute="centerX" secondItem="Kcx-fm-3dD" secondAttribute="centerX" id="NJJ-Iz-4lf"/>
+                            <constraint firstItem="rWa-l5-ift" firstAttribute="top" secondItem="ejI-A6-KXo" secondAttribute="top" constant="8" id="OME-Xd-8nT"/>
+                            <constraint firstItem="rWa-l5-ift" firstAttribute="centerY" secondItem="Kcx-fm-3dD" secondAttribute="centerY" id="QHf-bg-vCE"/>
+                            <constraint firstItem="aSI-sJ-JdQ" firstAttribute="bottom" secondItem="ejI-A6-KXo" secondAttribute="bottom" id="S8L-Qo-ZHu"/>
+                            <constraint firstItem="aSI-sJ-JdQ" firstAttribute="leading" secondItem="ejI-A6-KXo" secondAttribute="leading" id="WDI-he-aZa"/>
+                            <constraint firstItem="ejI-A6-KXo" firstAttribute="trailing" secondItem="aSI-sJ-JdQ" secondAttribute="trailing" id="WHu-w4-6Qi"/>
+                            <constraint firstItem="Pp8-7d-Q5n" firstAttribute="trailing" secondItem="ejI-A6-KXo" secondAttribute="trailing" id="XRJ-tB-vHb"/>
+                            <constraint firstItem="ip6-oO-Hgc" firstAttribute="leading" secondItem="ejI-A6-KXo" secondAttribute="leading" id="Y4J-Pr-e7u"/>
+                            <constraint firstAttribute="bottom" secondItem="mC4-9c-tSb" secondAttribute="bottom" id="YOS-vB-lH4"/>
+                            <constraint firstItem="Pp8-7d-Q5n" firstAttribute="top" secondItem="ejI-A6-KXo" secondAttribute="top" id="YXE-oe-kYI"/>
+                            <constraint firstItem="aSI-sJ-JdQ" firstAttribute="top" secondItem="Kcx-fm-3dD" secondAttribute="top" id="ZmN-F5-gc1"/>
+                            <constraint firstItem="ejI-A6-KXo" firstAttribute="trailing" secondItem="aSI-sJ-JdQ" secondAttribute="trailing" id="f8o-qm-Edp"/>
+                            <constraint firstItem="ejI-A6-KXo" firstAttribute="trailing" secondItem="btZ-Zb-KMg" secondAttribute="trailing" id="gyV-JU-QeQ"/>
+                            <constraint firstItem="ejI-A6-KXo" firstAttribute="trailing" secondItem="rWa-l5-ift" secondAttribute="trailing" constant="8" id="ix3-fK-O8g"/>
+                            <constraint firstItem="ejI-A6-KXo" firstAttribute="bottom" secondItem="aSI-sJ-JdQ" secondAttribute="bottom" id="k54-y1-ebk"/>
+                            <constraint firstItem="aSI-sJ-JdQ" firstAttribute="top" secondItem="Kcx-fm-3dD" secondAttribute="top" id="kj0-C8-tZ8"/>
+                            <constraint firstItem="aSI-sJ-JdQ" firstAttribute="leading" secondItem="rWa-l5-ift" secondAttribute="trailing" id="nxs-uR-qAy"/>
+                            <constraint firstItem="ip6-oO-Hgc" firstAttribute="top" secondItem="ejI-A6-KXo" secondAttribute="top" id="vZ1-ta-em7"/>
+                            <constraint firstItem="aSI-sJ-JdQ" firstAttribute="top" secondItem="rWa-l5-ift" secondAttribute="bottom" id="veT-fO-oiI"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ejI-A6-KXo"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="mC4-9c-tSb"/>
+                                <exclude reference="btZ-Zb-KMg"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="WHu-w4-6Qi"/>
+                                <exclude reference="EVu-8b-2qJ"/>
+                                <exclude reference="NJJ-Iz-4lf"/>
+                                <exclude reference="QHf-bg-vCE"/>
+                                <exclude reference="YOS-vB-lH4"/>
+                                <exclude reference="ZmN-F5-gc1"/>
+                                <exclude reference="kj0-C8-tZ8"/>
+                                <exclude reference="nxs-uR-qAy"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact">
+                            <mask key="constraints">
+                                <exclude reference="ix3-fK-O8g"/>
+                                <include reference="EVu-8b-2qJ"/>
+                                <include reference="ZmN-F5-gc1"/>
+                                <include reference="kj0-C8-tZ8"/>
+                                <include reference="nxs-uR-qAy"/>
+                                <exclude reference="veT-fO-oiI"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="WHu-w4-6Qi"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact-widthClass=compact">
+                            <mask key="subviews">
+                                <exclude reference="rWa-l5-ift"/>
+                                <exclude reference="ip6-oO-Hgc"/>
+                                <exclude reference="Pp8-7d-Q5n"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="OME-Xd-8nT"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact-widthClass=regular">
+                            <mask key="subviews">
+                                <exclude reference="ip6-oO-Hgc"/>
+                                <exclude reference="Pp8-7d-Q5n"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="WDI-he-aZa"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <exclude reference="ip6-oO-Hgc"/>
+                                <exclude reference="Pp8-7d-Q5n"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <mask key="subviews">
+                                <exclude reference="aSI-sJ-JdQ"/>
+                                <include reference="mC4-9c-tSb"/>
+                                <include reference="btZ-Zb-KMg"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="NJJ-Iz-4lf"/>
+                                <include reference="QHf-bg-vCE"/>
+                                <include reference="YOS-vB-lH4"/>
+                                <exclude reference="veT-fO-oiI"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8Ff-Bk-7rE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="153.37331334332833" y="93.599999999999994"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="300px-Calhoun_mpls" width="512" height="512"/>
+        <image name="Skyline" width="512" height="512"/>
+        <image name="iTunesArtwork" width="512" height="512"/>
+        <image name="iTunesArtwork-1" width="512" height="512"/>
+    </resources>
+</document>
